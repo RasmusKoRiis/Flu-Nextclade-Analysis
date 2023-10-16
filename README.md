@@ -19,7 +19,8 @@ Clade Analysis for:
 
 To run the workflow:
 
-
+git clone https://github.com/RasmusKoRiis/Flu-Nextclade-Analysis.git
+cd Flu-Nextclade-Analysis
 nextflow run main.nf --fasta_file=/path/to/your/input.fasta
 
 To test the workflow:
