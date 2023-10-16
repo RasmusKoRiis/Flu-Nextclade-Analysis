@@ -1,0 +1,23 @@
+# Common directories and files to exclude
+work/
+results/
+.nextflow.log
+.nextflow/
+*.lock
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Binary and byte-compiled files
+*.pyc
+*.pyo
+*.bin
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
