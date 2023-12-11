@@ -70,7 +70,7 @@ process NEXTCLADE_BVIC {
 
     script:
     """
-    nextclade dataset get --name 'fflu_vic_ha' --output-dir 'data/flu_vic_ha'
+    nextclade dataset get --name 'flu_vic_ha' --output-dir 'data/flu_vic_ha'
     nextclade run \
        --input-dataset data/flu_vic_ha  \
        --output-all=output/ \
